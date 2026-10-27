@@ -1,0 +1,16 @@
+{
+  "name": "stock-simplified",
+  "version": "1.1.0",
+  "description": "Stock Simplified - stock-market learning platform with user/admin dashboards and demo checkout",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^11.8.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
